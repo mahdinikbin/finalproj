@@ -3,7 +3,6 @@ import { createTermCourse, UpdateTermCourseById, deleteTermCourse, getAllTermCou
 const userController = require("../controllers/userController");
 const { authenticated } = require("../middlewares/auth");
 
-const router = express.Router()
 
 const { Router } = require('express');
 const router = Router();

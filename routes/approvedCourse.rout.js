@@ -1,7 +1,6 @@
 import express, { Express, Request, Response } from 'express';
 import { createApprovedCourse, deleteApprovedCourse, UpdateApprovedCourseById, getAllApprovedCourses, getApprovedCourseById } from '../services/approvedCourse.service';
 
-const router = express.Router()
 
 const express = require('express');
 const router = express.Router();
